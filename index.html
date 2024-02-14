@@ -29,8 +29,8 @@
 					<nav id="nav">
 						<ul>
 							<li><a href="#intro" class="active">About Me</a></li>
-							<li><a href="#first">Professional Experience</a></li>
-							<li><a href="#second">Personal Projects</a></li>
+							<li><a href="#professionalExperience">Professional Experience</a></li>
+							<li><a href="#personalExperience">Personal Projects</a></li>
 						</ul>
 					</nav>
 
@@ -45,8 +45,8 @@
 											<h2>About Me</h2>
 										</header>
 										<p>I thrive on solving difficult problems and learning new technology over a weekend. I am seeking 
-											a full stack software development position, working on software products that allow me to learn new frameworks and 
-											software. For more information, 
+											a full stack software development position, working on software products that allow me to learn new frameworks and technologies. 
+											For more information, 
 										   <a href = "https://ryanwatson425.github.io/Resume%202_7_24.pdf" target = "_blank" >see my resume</a>.
 										</p>
 									</div>
@@ -54,7 +54,7 @@
 							</section>
 
 						<!-- First Section -->
-						<section id="first" class="main special">
+						<section id="professionalExperience" class="main special">
 							<header class="major">
 								<h2>Undergraduate Research Fellowship</h2>
 								<h3>Seattle Pacific University</h3>
@@ -75,7 +75,7 @@
 								</ul>
 							</footer>
 						</section>
-						<section class="main special">
+						<section id="cis" class="main special">
 							<header class="major">
 								<h2>University Network Technician</h2>
 								<h3>Seattle Pacific University</h3>
@@ -95,7 +95,7 @@
 								</ul>
 							</footer>
 						</section>
-						<section class="main special">
+						<section id="versium2022" class="main special">
 							<header class="major">
 								<h2>Software Engineering Internship</h2>
 								<h3>Versium Analytics</h3>
@@ -106,7 +106,7 @@
 									<p>
 										I worked on integrating APIs into external production services, exploring the viability of Google Sheets applications, and creating open source SDKs.
 									</p>
-									<p class="ul">React.js • PHP • Node.js •JavaScript • Python • Working With APIs • Open Source</p>
+									<p class="ul">React.js • PHP • Node.js • JavaScript • Python • Working With APIs • Open Source</p>
 								</div>
 							</div>
 							<footer class="major">
@@ -115,7 +115,7 @@
 								</ul>
 							</footer>
 						</section>
-						<section class="main special">
+						<section id="versium2021" class="main special">
 							<header class="major">
 								<h2>Software Engineering Internship</h2>
 								<h3>Versium Analytics</h3>
@@ -138,11 +138,54 @@
 						</section>
 
 						<!-- Second Section -->
-						<section id="second" class="main special">
+						<section id="personalExperience" class="main special">
+							<header class="major">
+								<h2>hngr</h2>
+								<p>Project Ongoing: September 2023 - Present</p>
+							</header>
+							<ul class="list-group list-group-vertical">
+								<span class="image"><img src="images/hngrLogo.png"></span>
+							</ul>
+							<div class="content">
+								<p>
+									hngr is a mobile application designed for foodies. Review restaurants you have been to, share them with your friends, save restaurants you want to go to, and more.
+								</p>
+								<p class="ul">React-Native • Mobile App Development • TypeScript • Zustand • react-query • Expo • Unit Testing</p>
+							</div>
+							<footer class="major">
+								<ul class="actions special">
+									<li><a href="hngr.html" class="button">Read More</a></li>
+								</ul>
+							</footer>
+						</section>
+						<section id="chessv2" class="main special">
+							<header class="major">
+								<h2>Chess V2</h2>
+								<p>Project Completed: August 2023</p>
+							</header>
+							<ul class="list-group list-group-vertical">
+								<span class="image"><img src="images/ChessV2.png"></span>
+							</ul>
+							<div class="content">
+								<p>
+									This is an iteration on <a href="index.html#chessv1">my earlier attempt at creating a chess game</a>. This version correctly implements all legal chess moves 
+									and allows for online multiplayer. This project was developed with React.js and <a href="https://checkmate-the-king.onrender.com/">is currently deployed</a> 
+									in case you want to experiment with what I created.
+								</p>
+								<p class="ul">Data Structures • Algorithms • React.js • Websockets</p>
+							</div>
+							<footer class="major">
+								<ul class="actions special">
+									<li><a href="chessv2.html" class="button">Read More</a></li>
+									<li><a href="https://github.com/Tyler-and-Ryan/ChessV2" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+								</ul>
+							</footer>
+						</section>
+
+						<section id="huffman" class="main special">
 							<header class="major">
 								<h2>Huffman Tree</h2>
-								<p>Project Type: Individual<br />
-								   Project Completed: June 2021</p>
+								<p>Project Completed: June 2021</p>
 							</header>
 							<ul class="list-group list-group-vertical">
 								<span class="image"><img src="images/Huffman1.png"></span>
@@ -157,6 +200,7 @@
 								<p>
 									This project includes the complete sorting, encoding, and compressing of a .txt file through creating and using a huffman tree. This project was for the class Data Structures II and was developed in C++.
 								</p>
+								<p class="ul">Data Structures • Algorithms • C++</p>
 							</div>
 							<footer class="major">
 								<ul class="actions special">
@@ -165,35 +209,10 @@
 							</footer>
 						</section>
 
-						<!-- Third Section -->
-						<section id="third" class="main special">
-							<header class="major">
-								<h2>Quote Management Application</h2>
-								<p>Project Type: Team<br />
-								   Project Completed: May 2021</p>
-							</header>
-							<ul class="list-group list-group-vertical">
-								<span class="image"><img src="images/QuoteManagement1.PNG"></span>
-							</ul>
-							<div class="content">
-								<p>
-									The Quote Management Application was created by myself, Dillon Goicoechea, Nate Geddis, and Steven Dunkle for the class Applications Design. In this project we designed our application by creating wireframes, 
-									navigation designs, and schemas for REST APIs. We then created a functional demo of this application using QT Creator and C++.
-								</p>
-							</div>
-							<footer class="major">
-								<ul class="actions special">
-									<li><a href="quote.html" class="button">Read More</a></li>
-								</ul>
-							</footer>
-						</section>
-
-						<!-- Fourth Section -->
-						<section id="fourth" class="main special">
+						<section id="chessv1" class="main special">
 							<header class="major">
 								<h2>Chess</h2>
-								<p>Project Type: Team<br />
-								   Project Completed: September 2020</p>
+								<p>Project Completed: September 2020</p>
 							</header>
 							<ul class="list-group list-group-vertical">
 								<span class="image"><img src="images/Chess1.PNG"></span>
@@ -203,6 +222,7 @@
 									I developed a Chess game with <a href="https://linkedin.com/in/tyler-w-75ab44132">Tyler Watson</a> using Java in the summer of 2020. My primary role in this project was developing the backend logic that managed where each piece was 
 									allowed to move and appropriately changing the gamestate when pieces were moved or taken.
 								</p>
+								<p class="ul">Data Structures • Java</p>
 							</div>
 							<footer class="major">
 								<ul class="actions special">
