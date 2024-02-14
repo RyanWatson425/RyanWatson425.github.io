@@ -2997,6 +2997,13 @@ input, select, textarea {
 				margin: 0 0 2em 0;
 			}
 
+			.spotlight .content .ul {
+				font-weight: bold;
+				width: 75%;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
 		.spotlight .image {
 			display: inline-block;
 			margin-left: 4em;
